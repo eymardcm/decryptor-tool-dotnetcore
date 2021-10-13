@@ -139,7 +139,7 @@ namespace Decryptor_Console_App
             if (jwe.LastMethodSuccess != true) return jwe.LastErrorText;
 
             //  3. Decrypt       
-            return jwe.Decrypt(0, "utf-8");
+            return jwe.Decrypt(0, "ascii");
 
         }
         public static void Clear()
