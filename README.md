@@ -9,6 +9,9 @@ PM> Install-package ChilkatDnCore
 ### notes:
 see the screenshots folder see to examples of the running console application
 
+#### Main Menu Example:
+![Main Menu Example](/screenshots/mainMenuExample.jpg?raw=true "Main Menu Example")
+
 #### Encrypt Example:
 ![Encrypt Example](/screenshots/encryptingExample.jpg?raw=true "Encrypt Example")
 
