@@ -105,7 +105,7 @@ namespace Decryptor_Console_App
 
         }
 
-        public static void Base64Encode()
+        static void Base64Encode()
         {
             Console.WriteLine($"{Environment.NewLine}Enter the 32 bytes (256-bit) AES Wrapping Key you want to encode:");
             var plainTextBytes = System.Text.Encoding.ASCII.GetBytes(Console.ReadLine());
