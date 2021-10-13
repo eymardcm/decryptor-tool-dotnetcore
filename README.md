@@ -13,3 +13,6 @@ see the screenshots folder to visual examples of the running console application
 
 #### Decrypt Example:
 ![Decrypt Example](/Decryptor%20Console%20App/screenshots/decryptingExample.jpg?raw=true "Decrypt Example")
+
+#### Base64 Encode Example:
+![Base64 Encode Example](/Decryptor%20Console%20App/screenshots/encodingExample.jpg?raw=true "Base64 Encode Example")
