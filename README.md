@@ -8,4 +8,4 @@ PM> Install-package ChilkatDnCore
 ### notes:
 see the screenshots folder to visual examples of the running console application
 
-![Alt text](/blob/main/Decryptor%20Console%20App/screenshots/decryptingExample.jpg?raw=true "Optional Title")
+![Alt text](/Decryptor%20Console%20App/screenshots/decryptingExample.jpg?raw=true "Optional Title")
