@@ -46,9 +46,6 @@ namespace Decryptor_Console_App
 
         static void Decrypt()
         {
-            //while (true)
-            //{
-
             SecuredData.Clear();
 
             Console.WriteLine("\nEnter the securedData you want decrypted:");
@@ -62,8 +59,6 @@ namespace Decryptor_Console_App
 
             Console.WriteLine("\nPress any key to continue, or [Ctrl + c] to exit.\n");
             Console.ReadKey();
-
-            //}
         }
 
         static void Encrypt()
