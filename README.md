@@ -10,10 +10,10 @@ PM> Install-package ChilkatDnCore
 see the screenshots folder see to examples of the running console application
 
 #### Encrypt Example:
-![Encrypt Example](/Decryptor%20Console%20App/screenshots/encryptingExample.jpg?raw=true "Encrypt Example")
+![Encrypt Example](/screenshots/encryptingExample.jpg?raw=true "Encrypt Example")
 
 #### Decrypt Example:
-![Decrypt Example](/Decryptor%20Console%20App/screenshots/decryptingExample.jpg?raw=true "Decrypt Example")
+![Decrypt Example](/screenshots/decryptingExample.jpg?raw=true "Decrypt Example")
 
 #### Base64 Encode Example:
-![Base64 Encode Example](/Decryptor%20Console%20App/screenshots/encodingExample.jpg?raw=true "Base64 Encode Example")
+![Base64 Encode Example](/screenshots/encodingExample.jpg?raw=true "Base64 Encode Example")
