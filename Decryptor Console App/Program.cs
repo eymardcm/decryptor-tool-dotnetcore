@@ -48,22 +48,22 @@ namespace Decryptor_Console_App
         {
             SecuredData.Clear();
 
-            Console.WriteLine("\nEnter the securedData you want decrypted:");
+            Console.WriteLine($"{Environment.NewLine}Enter the securedData you want decrypted:");
             SecuredData.CipherText = Console.ReadLine().ToString();
 
-            Console.WriteLine("\nEnter the base64-encoded 256-bit encryption key that was used to encrypt the data (aka: The Wrapping Key):");
+            Console.WriteLine($"{Environment.NewLine}Enter the base64-encoded 256-bit encryption key that was used to encrypt the data (aka: The Wrapping Key):");
             SecuredData.Base64EncodedAESWrappingKey = Console.ReadLine().ToString();
 
             Console.WriteLine($"{Environment.NewLine}Here is your decrypted data:");
             Console.WriteLine($"{SecuredData.Decrypt()}");
 
-            Console.WriteLine("\nPress any key to continue, or [Ctrl + c] to exit.\n");
+            Console.WriteLine($"{Environment.NewLine}Press any key to continue, or [Ctrl + c] to exit.\n");
             Console.ReadKey();
         }
 
         static void Encrypt()
         {
-            Console.WriteLine($"{Environment.NewLine}Enter the data you want to encrypt, then press the <Enter> key:");
+            Console.WriteLine($"{Environment.NewLine}Enter the data you want to encrypt:");
             var data = Console.ReadLine();
             Console.WriteLine($"{Environment.NewLine}Enter a 32 bytes (256-bit) AES Wrapping Key:"); // this should NOT be base64 encoded
             var aesWrappingKey = Console.ReadLine();
