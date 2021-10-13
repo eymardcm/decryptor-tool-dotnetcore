@@ -120,7 +120,7 @@ namespace Decryptor_Console_App
         }
     }
 
-    public struct SecuredData
+    struct SecuredData
     {
         public static string CipherText;                    // this is the value of securedData
         public static string Base64EncodedAESWrappingKey;   // this is the b64Encoded 256-bit encryption key    
