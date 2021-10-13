@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Decryptor_Console_App</RootNamespace>
+    <StartupObject>Decryptor_Console_App.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChilkatDnCore" Version="9.5.0.88" />
+  </ItemGroup>
+
+</Project>
