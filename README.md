@@ -8,5 +8,8 @@ PM> Install-package ChilkatDnCore
 ### notes:
 see the screenshots folder to visual examples of the running console application
 
+#### Encrypt Example:
+![Encrypt Example](/Decryptor%20Console%20App/screenshots/EncryptingExample.jpg?raw=true "Encrypt Example")
+
 #### Decrypt Example:
 ![Decrypt Example](/Decryptor%20Console%20App/screenshots/decryptingExample.jpg?raw=true "Decrypt Example")
